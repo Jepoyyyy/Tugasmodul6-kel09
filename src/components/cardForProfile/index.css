@@ -1,0 +1,54 @@
+.card-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardForProfile {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: #c1c0c0;
+  width: 800px;
+  border-radius: 25px;
+  align-items: center;
+  transition:  0.5s ease-in-out;
+}
+.cardForProfile:hover{
+  transform: scale(1.05) ;
+  transition:  0.5s ease-in-out;
+  background-color: blueviolet;
+}
+/* .photo {
+  width: 90px;
+  height: 90px;
+} */
+.description {
+  display: flex;
+  padding-left: 20px;
+  height: 150px;
+  flex-direction: column;
+  justify-content: space-around;
+  transition:  0.5s ease-in-out;
+}
+#name {
+  color: rgb(28, 28, 28);
+  font-size: 29px;
+  font-weight: bold;
+  font-family: Verdana;
+}
+#NIM {
+  color: rgb(55, 55, 55);
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 25px;
+  margin-top: 5px;
+}
+#gambar {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  padding-left: 10px;
+}
