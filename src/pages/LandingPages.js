@@ -53,11 +53,13 @@ export default function LandingPage() {
   };
   return (
     <main>
+      <div className="input-box">
       <input
         type="text"
         placeholder="Search film by name"
         onKeyDown={(e) => onSearch(e)}
       />
+      </div>
       <h3 className="title">Search : {query}</h3>
       {!data || isLoading ? (
         <p>Loading...</p>

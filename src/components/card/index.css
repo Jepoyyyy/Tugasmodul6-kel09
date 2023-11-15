@@ -9,10 +9,11 @@
 }
 
 .card-info {
-  height: 80px;
+  
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  
+  border-radius:15px;
   padding: 9px 12px;
   color: rgb(46, 46, 46);
 }
@@ -30,3 +31,4 @@ h3 {
   font-size: 18px;
   font-weight: bold;
 }
+
